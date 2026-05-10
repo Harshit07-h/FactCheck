@@ -1,0 +1,19 @@
+# ── Streamlit secrets (NEVER commit!) ───────────────────────────────────────
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# App outputs
+outputs/*.csv
+outputs/*.json
+outputs/*.html
+
+# OS
+.DS_Store
+Thumbs.db

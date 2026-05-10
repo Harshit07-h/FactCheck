@@ -1,0 +1,24 @@
+# ── Truth Layer – PDF Fact Checker ──────────────────────────────────────────
+# Core framework
+streamlit>=1.35.0
+
+# PDF parsing (primary + fallback)
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.0
+PyPDF2>=3.0.0
+
+# LLM providers (install at least one)
+google-generativeai>=0.7.0       # Gemini
+openai>=1.30.0                   # OpenAI
+
+# Web search (install at least one)
+duckduckgo-search>=6.1.0         # Free, no key required
+tavily-python>=0.3.0             # Tavily API (recommended)
+
+# Data & visualisation
+pandas>=2.2.0
+plotly>=5.22.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
